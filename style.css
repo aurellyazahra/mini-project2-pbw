@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-navbar {
+    background-color: #e79ab1 !important;
+}
+
+.navbar,
+.navbar .navbar-brand,
+.navbar .nav-link {
+    font-family: Geneva, sans-serif !important;
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #f0f0f0 !important;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url("bg4.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-subtitle {
+    color: #e79ab1;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.btn-hero:hover {
+    background-color: #228b22;
+    color: #fff;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+}
+
+.about-section {
+    padding: 80px 0;
+    background-color: #e6f4ea;
+}
+
+#about {
+    background-color: #ddf2dd;
+}
+
+#about h2 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color:#517a51;
+}
+
+.about-box {
+    background-color: #fff3ed;
+    padding: 25px;
+    border-radius: 15px;
+    color: #517a51;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: justify;
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: all 0.8s ease-out;
+}
+
+.about-box.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #e79ab1 !important;
+    font-size: 12px;
+}
+
+#certificates {
+    background: linear-gradient(to bottom, #ddf2dd, #f8bbd0) !important;
+    color:#517a51;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#certificates .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certificates .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#certificates .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+}
+
+footer {
+    padding: 5px 0;
+    font-size: 12px;
+    text-align: center;
+    background-color: #e79ab1;
+    color: #ffffff;
+}
