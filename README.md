@@ -290,6 +290,15 @@ Beberapa elemen desain yang digunakan:
 
 Semua styling dibuat menggunakan CSS custom dan Bootstrap utility class.
 
+# Database
+<img width="350" height="247" alt="image" src="https://github.com/user-attachments/assets/4c0877c8-379f-43a7-a292-1e0df350081a" />
+
+Disini saya menyimpan database di portfolio_zahra dan terdapat beberapa table yang menyimpan database.
+.
+<img width="1275" height="677" alt="image" src="https://github.com/user-attachments/assets/2bf9e105-b06a-4495-91e1-f32e79e8f65e" />
+
+Isi dari table experience, ada 3 jabatan beserta deskripsinya.
+
 # Teknologi yang Digunakan
 Website ini dibuat menggunakan:
 
